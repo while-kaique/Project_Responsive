@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+span#burguer{
+    display: none;
+}
+
+menu {
+    display: block;
+}
+
+header menu ul {
+    flex-direction: row;
+    width: 100vw;
+}
+
+header > menu > ul > a > li{
+    width: 20vw;
+    padding: 10px 0px;
+    border-right: 1px solid rgba(0, 0, 0, 0.425);
+    border-top: 1px solid rgba(0, 0, 0, 0.267);
+    background-color: rgb(124, 72, 139);
+    color: white;
+}
+header > menu > ul > a{
+    width: 20vw;
+}
+
+main{
+    width: 768px;
+}
+
+
+
+
+
+}
